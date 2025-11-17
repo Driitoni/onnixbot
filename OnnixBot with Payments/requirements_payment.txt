@@ -1,0 +1,16 @@
+# Crypto Payment Bot Requirements
+python-telegram-bot==22.5
+yfinance==0.2.66
+pandas>=2.2.0
+numpy>=1.24.0
+python-dotenv>=1.2.0
+requests>=2.31.0
+
+# Additional for crypto payments
+cryptography>=41.0.0
+pycryptodome>=3.19.0
+qrcode>=7.4.0
+pillow>=10.0.0
+
+# Webhook handling (for payment confirmations)
+flask>=2.3.0

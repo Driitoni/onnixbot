@@ -1,0 +1,401 @@
+📦 Checking and installing packages...
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: python-telegram-bot>=21.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 2)) (22.5)
+Requirement already satisfied: yfinance>=0.2.40 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 3)) (0.2.66)
+Requirement already satisfied: pandas>=2.2.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 4)) (2.3.3)       
+Requirement already satisfied: numpy>=1.26.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 5)) (2.3.4)       
+Requirement already satisfied: ta>=0.10.2 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 6)) (0.11.0)
+Requirement already satisfied: requests>=2.31.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 7)) (2.32.5)   
+Requirement already satisfied: python-dotenv>=1.0.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 8)) (1.2.1)
+Requirement already satisfied: aiohttp>=3.9.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 9)) (3.13.2)     
+Requirement already satisfied: matplotlib>=3.8.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 10)) (3.10.7) 
+Requirement already satisfied: seaborn>=0.13.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 11)) (0.13.2)   
+Requirement already satisfied: schedule>=1.2.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 12)) (1.2.2)    
+Requirement already satisfied: apscheduler>=3.10.4 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 13)) (3.11.1)
+Requirement already satisfied: httpx<0.29,>=0.27 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from python-telegram-bot>=21.0->-r requirements.txt (line 2)) (0.28.1)
+Requirement already satisfied: anyio in c:\users\hotid\appdata\roaming\python\python313\site-packages (from httpx<0.29,>=0.27->python-telegram-bot>=21.0->-r requirements.txt (line 2)) (4.11.0)
+Requirement already satisfied: certifi in c:\users\hotid\appdata\roaming\python\python313\site-packages (from httpx<0.29,>=0.27->python-telegram-bot>=21.0->-r requirements.txt (line 2)) (2025.10.5)
+Requirement already satisfied: httpcore==1.* in c:\users\hotid\appdata\roaming\python\python313\site-packages (from httpx<0.29,>=0.27->python-telegram-bot>=21.0->-r requirements.txt (line 2)) (1.0.9)
+Requirement already satisfied: idna in c:\users\hotid\appdata\roaming\python\python313\site-packages (from httpx<0.29,>=0.27->python-telegram-bot>=21.0->-r requirements.txt (line 2)) (3.11)
+Requirement already satisfied: h11>=0.16 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from httpcore==1.*->httpx<0.29,>=0.27->python-telegram-bot>=21.0->-r requirements.txt (line 2)) (0.16.0)
+Requirement already satisfied: multitasking>=0.0.7 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (0.0.12)
+Requirement already satisfied: platformdirs>=2.0.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (4.5.0)
+Requirement already satisfied: pytz>=2022.5 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (2025.2)
+Requirement already satisfied: frozendict>=2.3.4 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (2.4.6)
+Requirement already satisfied: peewee>=3.16.2 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (3.18.3)
+Requirement already satisfied: beautifulsoup4>=4.11.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (4.14.2)
+Requirement already satisfied: curl_cffi>=0.7 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (0.13.0)
+Requirement already satisfied: protobuf>=3.19.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (6.33.0)
+Requirement already satisfied: websockets>=13.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from yfinance>=0.2.40->-r requirements.txt (line 3)) (15.0.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from pandas>=2.2.0->-r requirements.txt (line 4)) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from pandas>=2.2.0->-r requirements.txt (line 4)) (2025.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from requests>=2.31.0->-r requirements.txt (line 7)) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from requests>=2.31.0->-r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (6.7.0)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from aiohttp>=3.9.1->-r requirements.txt (line 9)) (1.22.0)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (4.60.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (1.4.9)
+Requirement already satisfied: packaging>=20.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (25.0)
+Requirement already satisfied: pillow>=8 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (12.0.0)
+Requirement already satisfied: pyparsing>=3 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from matplotlib>=3.8.0->-r requirements.txt (line 10)) (3.2.5)
+Requirement already satisfied: tzlocal>=3.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from apscheduler>=3.10.4->-r requirements.txt (line 13)) (5.3.1)
+Requirement already satisfied: soupsieve>1.2 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from beautifulsoup4>=4.11.1->yfinance>=0.2.40->-r requirements.txt (line 3)) (2.8)
+Requirement already satisfied: typing-extensions>=4.0.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from beautifulsoup4>=4.11.1->yfinance>=0.2.40->-r requirements.txt (line 3)) (4.15.0)
+Requirement already satisfied: cffi>=1.12.0 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from curl_cffi>=0.7->yfinance>=0.2.40->-r requirements.txt (line 3)) (2.0.0)
+Requirement already satisfied: pycparser in c:\users\hotid\appdata\roaming\python\python313\site-packages (from cffi>=1.12.0->curl_cffi>=0.7->yfinance>=0.2.40->-r requirements.txt (line 3)) (2.23)
+Requirement already satisfied: six>=1.5 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from python-dateutil>=2.8.2->pandas>=2.2.0->-r requirements.txt (line 4)) (1.17.0)
+Requirement already satisfied: sniffio>=1.1 in c:\users\hotid\appdata\roaming\python\python313\site-packages (from anyio->httpx<0.29,>=0.27->python-telegram-bot>=21.0->-r requirements.txt (line 2)) (1.3.1)
+============================================================
+🔥 POCKET OPTION TRADING BOT
+============================================================
+📊 Features:
+  • Multi-timeframe technical analysis
+  • Trading signal generation
+  • Risk management system
+  • Portfolio tracking
+  • Market news integration
+
+🤖 Starting bot...
+📋 Check 'bot.log' for detailed logs
+⚠️  Remember: This is for educational purposes only!
+============================================================
+2025-11-08 01:42:32,872 - portfolio_tracker - INFO - No existing portfolio data found, starting fresh
+2025-11-08 01:42:33,921 - main - INFO - Starting Pocket Option Trading Bot...
+2025-11-08 01:42:34,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getMe "HTTP/1.1 200 OK"
+2025-11-08 01:42:34,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-08 01:42:34,188 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-08 01:42:34,188 - telegram.ext.Application - INFO - Application started
+2025-11-08 01:42:35,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:42:35,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/sendMessage "HTTP/1.1 200 OK"
+2025-11-08 01:42:37,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:42:37,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/answerCallbackQuery "HTTP/1.1 200 OK"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 440, in button_callback
+    await self.signal_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 217, in signal_command
+    await update.message.reply_text("❌ Unauthorized access.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 807: character maps to <undefined>
+Call stack:
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 146, in <module>
+    main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 131, in main
+    bot_main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 749, in main
+    bot.run()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 736, in run
+    self.application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1062, in __run
+    loop.run_forever()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1233, in _update_fetcher
+    await self.__update_fetcher()
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1229, in __update_fetcher
+    await self.__process_update_wrapper(update)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1244, in __process_update_wrapper
+    await self._update_processor.process_update(update, self.process_update(update))
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 171, in process_update
+    await self.do_process_update(update, coroutine)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 196, in do_process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1325, in process_update
+    if await self.process_error(update=update, error=exc):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1940, in process_error
+    _LOGGER.exception("No error handlers are registered, logging exception.", exc_info=error)
+Message: 'No error handlers are registered, logging exception.'
+Arguments: ()
+2025-11-08 01:42:37,412 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 440, in button_callback
+    await self.signal_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 217, in signal_command
+    await update.message.reply_text("❌ Unauthorized access.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-11-08 01:42:39,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:42:39,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/answerCallbackQuery "HTTP/1.1 200 OK"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 438, in button_callback
+    await self.analyze_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 187, in analyze_command
+    await update.message.reply_text("❌ Unauthorized access. Contact administrator.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 809: character maps to <undefined>
+Call stack:
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 146, in <module>
+    main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 131, in main
+    bot_main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 749, in main
+    bot.run()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 736, in run
+    self.application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1062, in __run
+    loop.run_forever()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1233, in _update_fetcher
+    await self.__update_fetcher()
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1229, in __update_fetcher
+    await self.__process_update_wrapper(update)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1244, in __process_update_wrapper
+    await self._update_processor.process_update(update, self.process_update(update))
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 171, in process_update
+    await self.do_process_update(update, coroutine)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 196, in do_process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1325, in process_update
+    if await self.process_error(update=update, error=exc):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1940, in process_error
+    _LOGGER.exception("No error handlers are registered, logging exception.", exc_info=error)
+Message: 'No error handlers are registered, logging exception.'
+Arguments: ()
+2025-11-08 01:42:39,932 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 438, in button_callback
+    await self.analyze_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 187, in analyze_command
+    await update.message.reply_text("❌ Unauthorized access. Contact administrator.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-11-08 01:42:41,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:42:41,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/answerCallbackQuery "HTTP/1.1 200 OK"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 275, in portfolio_command
+    portfolio_summary = self.portfolio_tracker.get_summary()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\portfolio_tracker.py", line 355, in get_summary
+    'consecutive_wins': total_stats['consecutive_wins'],
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'consecutive_wins'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 442, in button_callback
+    await self.portfolio_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 288, in portfolio_command
+    await update.message.reply_text(f"❌ Error accessing portfolio: {str(e)}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 1325: character maps to <undefined>
+Call stack:
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 146, in <module>
+    main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 131, in main
+    bot_main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 749, in main
+    bot.run()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 736, in run
+    self.application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1062, in __run
+    loop.run_forever()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1233, in _update_fetcher
+    await self.__update_fetcher()
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1229, in __update_fetcher
+    await self.__process_update_wrapper(update)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1244, in __process_update_wrapper
+    await self._update_processor.process_update(update, self.process_update(update))
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 171, in process_update
+    await self.do_process_update(update, coroutine)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 196, in do_process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1325, in process_update
+    if await self.process_error(update=update, error=exc):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1940, in process_error
+    _LOGGER.exception("No error handlers are registered, logging exception.", exc_info=error)
+Message: 'No error handlers are registered, logging exception.'
+Arguments: ()
+2025-11-08 01:42:41,413 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 275, in portfolio_command
+    portfolio_summary = self.portfolio_tracker.get_summary()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\portfolio_tracker.py", line 355, in get_summary
+    'consecutive_wins': total_stats['consecutive_wins'],
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'consecutive_wins'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 442, in button_callback
+    await self.portfolio_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 288, in portfolio_command
+    await update.message.reply_text(f"❌ Error accessing portfolio: {str(e)}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-11-08 01:42:42,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:42:42,640 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/answerCallbackQuery "HTTP/1.1 200 OK"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 444, in button_callback
+    await self.news_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 292, in news_command
+    await update.message.reply_text("📰 Fetching latest market news... Please wait.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4f0' in position 803: character maps to <undefined>
+Call stack:
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 146, in <module>
+    main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\run_bot.py", line 131, in main
+    bot_main()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 749, in main
+    bot.run()
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 736, in run
+    self.application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1062, in __run
+    loop.run_forever()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Python313\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1233, in _update_fetcher
+    await self.__update_fetcher()
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1229, in __update_fetcher
+    await self.__process_update_wrapper(update)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1244, in __process_update_wrapper
+    await self._update_processor.process_update(update, self.process_update(update))
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 171, in process_update
+    await self.do_process_update(update, coroutine)
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_baseupdateprocessor.py", line 196, in do_process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1325, in process_update
+    if await self.process_error(update=update, error=exc):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1940, in process_error
+    _LOGGER.exception("No error handlers are registered, logging exception.", exc_info=error)
+Message: 'No error handlers are registered, logging exception.'
+Arguments: ()
+2025-11-08 01:42:42,642 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\hotid\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 444, in button_callback
+    await self.news_command(update, context)
+  File "C:\Users\hotid\OneDrive\Desktop\TelegramBot\main.py", line 292, in news_command
+    await update.message.reply_text("📰 Fetching latest market news... Please wait.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-11-08 01:42:52,618 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:43:02,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:43:12,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:43:22,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:43:32,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:43:42,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:43:52,958 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:44:03,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
+2025-11-08 01:44:13,079 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7369201109:AAFCU6umw6bA7RVd-2JbhDnxt5QeiEF7ueQ/getUpdates "HTTP/1.1 200 OK"
